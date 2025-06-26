@@ -35,8 +35,6 @@ func (c *Car) UpdateMileage(newMileage int) {
 	if newMileage >= c.Mileage {
 		c.Mileage = newMileage
 		fmt.Printf("Пробег обновлен: %d км\n", c.Mileage)
-	} else {
-		fmt.Println("Новый пробег не может быть меньше текущего")
 	}
 }
 
